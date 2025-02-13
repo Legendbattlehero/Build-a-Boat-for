@@ -66,10 +66,10 @@ local queueteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (f
 local RunService = game:GetService("RunService")
 
 local Window = Rayfield:CreateWindow({
-    Name = "Build A Boat For Treasure",
+    Name = "Build A Boat LegionX",
     Icon = 85108798400826,
     LoadingTitle = "Build A Boat For Treasure",
-    LoadingSubtitle = "Made With ❤️ by @thereal_asu",
+    LoadingSubtitle = "Made by Legion",
     Theme = "DarkBlue",
  
     DisableRayfieldPrompts = true,
@@ -82,7 +82,7 @@ local Window = Rayfield:CreateWindow({
     },
  
     Discord = {
-       Enabled = true,
+       Enabled = false,
        Invite = "MdtGaG7vdx",
        RememberJoins = true
     },
@@ -91,11 +91,11 @@ local Window = Rayfield:CreateWindow({
     KeySettings = {
        Title = "discord.gg/uGhnBu89SM",
        Subtitle = "Key System",
-       Note = "Key available in discord, link copied to clipboard",
+       Note = "Key available in discord, link copied to clipboard",X
        FileName = "ASUBABFTKey",
        SaveKey = true,
        GrabKeyFromSite = false,
-       Key = {"terraria"} -- yes there is a keysystem but my script is not obfuscated lol
+       Key = {"kaka"} -- yes there is a keysystem but my script is not obfuscated lol
     }
 })
 
@@ -111,9 +111,9 @@ local Section = Credit:CreateSection("Discord")
 Section = Information:CreateSection("Discord")
 
 local Button = Credit:CreateButton({
-    Name = "Join the Community!",
+    Name = "xoppy kaka",
     Callback = function()
-        setclipboard("https://discord.gg/zrAB2m5gvz")
+        setclipboard("https://kaka")
         Rayfield:Notify({
             Title = "Copied!",
             Content = "the discord link has been successfully copied to the clipboard",
